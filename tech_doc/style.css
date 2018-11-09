@@ -1,0 +1,47 @@
+header {
+  font-size:36px;
+}
+
+#code-div {
+  background:lightgray;
+  width:100%;
+  margin:10px 20px;
+  white-space:pre;
+}
+
+code {
+  font-family:serif;
+}
+
+#navbar {
+  position:fixed;
+  top:0;
+  left:10px;
+  border-right:solid;
+  height:100%;
+  padding-right:25px;
+}
+
+#navbar li {
+  list-style:none;
+  position: relative;
+  padding:10px 0px;
+}
+
+#navbar a {
+  text-decoration:none;
+}
+
+main {
+  margin-left:300px;
+}
+
+@media (max-width:500px){
+  #navbar {
+    position:static;
+    border-right:none;
+  }
+  main {
+    margin-left:0px;
+  }
+}
