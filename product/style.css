@@ -1,0 +1,33 @@
+header {
+  background:lightgray;
+  position:fixed;
+  width:100%;
+  font-size:40px;
+}
+
+#text {
+  text-align:center;
+}
+
+#video {
+  margin:200px auto 0px auto;
+  align:middle;
+}
+
+#header-img {
+  height:auto;
+  width:auto;
+}
+
+#box-container {
+  display:flex;
+  flex-direction:row;
+  justify-content:space-around;
+  align-items:center;
+}
+
+@media (max-width:500px){
+  #header{
+    background:green;
+  }
+}
