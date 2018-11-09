@@ -1,0 +1,33 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<body>
+  <h1 id="title">
+    Survey Form
+  </h1>
+  <div>
+    <p id="description"> 
+      Survey Text Description
+    </p>
+    <form id="survey-form">
+      <label id="name-label" for="name">Name:</label> <input id="name" type="text" name="name" placeholder="Name" required> <br>
+      <label id="email-label" for="email">Email:</label> <input id="email" type="email" name="email" placeholder="Email"required > <br>
+      <label id="number-label" for="number">Enter a number between 1 and 100:</label> <input id="number" type="number" min="1" max="100" name="number" placeholder="Number"> <br>
+      Dropdown: <select id="dropdown">
+        <option value="option1">Option #1</option>
+        <option value="option2">Option #2</option>
+        <option value="option3">Option #3</option>
+      </select> <br>
+      <p>Please Pick a Radio Option: </p>
+      <input type="radio" name="radio" value="radiooption1" checked> Radio Option #1 <br>
+      <input type="radio" name="radio" value="radiooption2"> Radio Option #2 <br>
+      <input type="radio" name="radio" value="radiooption3"> Radio Option #3 <br>
+      <p>Please Pick Checkbox Option(s): </p>
+      <input type="checkbox" name="checkbox" value="checkoption1" checked> Check Option #1 <br>
+      <input type="checkbox" name="checkbox" value="checkoption2"> Check Option #2 <br>
+      <input type="checkbox" name="checkbox" value="checkoption3"> Check Option #3 <br>
+      <p>Comments:</p>
+      <textarea rows=4>Default text</textarea><br>      
+      <input id="submit" type="submit"> <br>
+    </form>
+  </div>
+</body>
